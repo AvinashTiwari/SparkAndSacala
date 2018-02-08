@@ -1,0 +1,21 @@
+for(item <- List(1,2,3)){
+  println(item)
+}
+
+for(item <- Array.range(0,5)){
+  println(item)
+}
+
+for(item <- Set(1,2,3)){
+  println(item)
+}
+
+for(item <- Array.range(0,5)){
+  if(item%2 ==0 ){
+  println(s"$item is even")
+}else
+{
+  println(s"$item is odd")
+
+}
+}
